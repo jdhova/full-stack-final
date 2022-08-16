@@ -1,0 +1,48 @@
+
+.dash-main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+  
+   
+  }
+  
+  .btn  {
+      width: 100px;
+      height: 50px;
+      font-size: 20px;
+      margin: 30px;
+  
+  }
+  
+  .results {
+      display: grid;
+      grid-template-columns: repeat(3 ,1fr);
+    }
+    
+    .results h3 {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .results2 {
+      padding-left: 20%;
+      padding-top: 50px;
+    }
+    
+    .btnd {
+      margin:30px;
+      width: 100px;
+    }
+    .btnu {
+      margin:1px;
+      width: 100px; 
+    }
